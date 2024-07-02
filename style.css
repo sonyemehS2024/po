@@ -1,0 +1,225 @@
+#header {
+
+    justify-content: space-evenly;
+    padding: 2vw;
+    font-size: 1.2vw;
+    display: none;
+    color:  #240510;
+}
+
+#top-half {
+    background-color: #eeeadf;
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+}
+
+#body {
+    background-color: white;
+}
+
+#search {
+    position: relative;
+    width: 68vw;
+    left: 10.8vw;
+    display: flex;
+    font-size: 2vw;
+    border-radius: 30px;
+    border: 1px solid;
+    text-indent: 20px;
+    padding: 10px;
+    text-overflow: ellipsis;
+    padding-bottom: 13px;
+    color: #52132a;
+}
+
+#search::placeholder{
+    color: #976c7c;
+}
+
+#search:focus{
+    outline: none;
+    border: 1px solid rgb(206, 146, 103);
+}
+
+.container-fluid {
+    position: relative;
+    top: 0vw;
+    text-align: center;
+}
+
+#left {
+
+    background-image: linear-gradient(to bottom left, #5d163d, #300a18);
+}
+
+#right{
+    padding: 0px;
+}
+
+#left2 {
+    padding: 0px;
+}
+
+
+#right2 {
+    background-image: linear-gradient(to bottom right, #db7d1e, #C7421A);
+}
+
+#right3 {
+    padding: 0px;
+}
+
+#left3 {
+    background-image: linear-gradient(to bottom left, #fcb122, #FC7D22);
+}
+
+#right4 {
+    
+    background-image: linear-gradient(to bottom right, #d97ff5, #a25bcc);
+}
+
+#left4 {
+    padding: 0px;
+}
+
+
+
+
+
+.front-img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    position: relative;
+    top: 3vw;
+    font-size: 2.7vw;
+    color:  #f3f0e9;
+    font-weight: 600;
+}
+
+.title:hover{
+    color:  #f7d588;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.desc {
+    color: #f3f0e9;
+    padding: 2vw;
+    position: relative;
+    top: 5vw;
+    font-size: 1.5vw;
+    border-top: 1.5px solid;
+}
+
+.nave {
+    color: chocolate;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.nave:hover {
+    color: rgb(206, 146, 103);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sub {
+    box-shadow: -2px 0px 20px 4px #00000040;
+}
+
+.food {
+    width: 100%;
+    height: auto;
+}
+
+.head {
+    font-size: 2.2vw;
+    padding-bottom: 1vw;
+
+}
+
+/* .head:hover{
+    cursor: pointer;
+    color: chocolate;
+} */
+
+.full {
+    float: right;
+    width: 30vw;
+}
+
+.label {
+    font-size: 1.25vw;
+    padding-top: 1vw;
+}
+
+#row-spec {
+    position: relative;
+    top: 1vw;
+    padding: 2vw;
+    display: none;
+}
+
+#bottom-half2 {
+    background-color: #f9f6ee;
+    color: #300a18;
+}
+
+.one-recipe {
+    padding: 2vw;
+    border: 1px solid  #300a18;
+    border-radius: 30px;
+    margin: 1vw;
+}
+
+.ingred {
+    font-size: 1.2vw;
+    width: 30vw;
+}
+
+.back {
+    position: relative;
+    left: 12.6vw;
+    top: 0.3vw;
+    font-size: 1.5vw;
+    width: 10vw;
+    height: 4vw;
+    border-radius: 1.88vw;
+    border: 1px solid #52132a;
+    background-color: #6a1434;
+    color: #f9f6ee;
+    display: none;
+}
+
+.back:focus{
+    outline: none;
+}
+
+#whole{
+    display: flex;
+}
+
+#filters {
+    position: relative;
+    left: 5vw;
+    top: 5px;
+    color: chocolate;
+    font-size: 1.6vw;
+}
+
+.link {
+    color: chocolate;
+    font-size: 1.2vw;
+}
+
+.link:hover {
+    color: rgb(206, 146, 103);
+}
+
+
